@@ -1,0 +1,3 @@
+dotnet build
+dotnet test ./Test/Test.csproj 
+rm -rf ./Test/bin/ ./Test/obj/ ./Test/TestResults/ ./Lib/bin/ ./Lib/obj/
